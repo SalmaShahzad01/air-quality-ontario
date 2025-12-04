@@ -63,3 +63,10 @@ pip install -r requirements.txt
 
 # 4. Run the cleaning and plotting script
 python scripts/prepare_first_plot.py
+
+### Running the automated tests
+```bash
+source .venv/bin/activate  # if not already active
+pip install -r requirements.txt
+pytest
+```
